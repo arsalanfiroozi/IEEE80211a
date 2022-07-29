@@ -1,0 +1,4 @@
+verilog work "DeScrambler.v"
+verilog work "DeInterleaver.v"
+verilog work "Decoder_Viterbi.v"
+verilog work "Receiver_2.v"

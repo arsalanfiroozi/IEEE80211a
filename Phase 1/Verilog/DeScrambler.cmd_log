@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.syr" 
+vhdtdtfi -lang verilog -prj Phase1 -o "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.tfi" -lib work "D:/HW/FPGA/Project/Phase 1/Verilog//DeScrambler.v" -module DeScrambler -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Phase1 -o "D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler.tfi" -lib work "D:/HW/FPGA/Project/Phase 1/Verilog//DeScrambler.v" -module DeScrambler -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

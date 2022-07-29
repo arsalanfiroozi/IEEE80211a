@@ -1,0 +1,11 @@
+Specification, Design, User Document, Testing are available in Report.pdf
+
+There is a folder "Codes" containing:
+	Main.v 
+	And the test-benches: Main_tb.v
+	And the matlab file: Test_Vector_Creator.m
+
+There is a folder "Verilog" containing the ISE project of the above verilog codes.
+
+There is a folder "Matlab" containing the matlab code: Test_Vector_Creator.m
+	

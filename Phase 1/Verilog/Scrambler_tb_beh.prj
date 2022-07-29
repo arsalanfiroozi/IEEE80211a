@@ -1,0 +1,4 @@
+verilog work "Scrambler.v"
+verilog work "Transmitter.v"
+verilog work "Scrambler_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

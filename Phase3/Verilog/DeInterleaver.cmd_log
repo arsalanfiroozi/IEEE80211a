@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase3/Verilog/DeInterleaver.xst" -ofn "D:/HW/FPGA/Project/Phase3/Verilog/DeInterleaver.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase3/Verilog/DeInterleaver.xst" -ofn "D:/HW/FPGA/Project/Phase3/Verilog/DeInterleaver.syr" 
+vhdtdtfi -lang verilog -prj Verilog -o D:/HW/FPGA/Project/Phase3/Verilog/DeInterleaver.tfi -lib work D:/HW/FPGA/Project/Phase3/Verilog//DeInterleaver.v -module DeInterleaver -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vcx75t-ff484-2 DeInterleaver.ngc DeInterleaver.ngd  
+map -intstyle ise -p xc6vcx75t-ff484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DeInterleaver_map.ncd DeInterleaver.ngd DeInterleaver.pcf 
+par -w -intstyle ise -ol high -mt off DeInterleaver_map.ncd DeInterleaver.ncd DeInterleaver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DeInterleaver.twx DeInterleaver.ncd -o DeInterleaver.twr DeInterleaver.pcf 

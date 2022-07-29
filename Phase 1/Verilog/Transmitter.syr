@@ -1,0 +1,481 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: Transmitter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Transmitter.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Transmitter"
+Output Format                      : NGC
+Target Device                      : xc6vcx75t-2-ff484
+
+---- Source Options
+Top Module Name                    : Transmitter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\HW\FPGA\Project\Phase 1\Verilog\Scrambler.v" into library work
+Parsing module <Scrambler>.
+Analyzing Verilog file "D:\HW\FPGA\Project\Phase 1\Verilog\Transmitter.v" into library work
+Parsing module <Transmitter>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Transmitter>.
+
+Elaborating module <Scrambler>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Transmitter>.
+    Related source file is "D:\HW\FPGA\Project\Phase 1\Verilog\Transmitter.v".
+    Found 12-bit register for signal <Length>.
+    Found 12-bit register for signal <Preamble>.
+    Found 13-bit register for signal <datalength>.
+    Found 12-bit register for signal <Queue>.
+    Found 11-bit register for signal <State>.
+    Found 13-bit adder for signal <n0078> created at line 23.
+    Found 13-bit adder for signal <endlength> created at line 23.
+    Found 11-bit adder for signal <State[10]_GND_1_o_add_8_OUT> created at line 66.
+    Found 13-bit adder for signal <datalength[12]_GND_1_o_add_9_OUT> created at line 68.
+    Found 11-bit comparator greater for signal <start> created at line 38
+    Found 11-bit comparator greater for signal <GND_1_o_State[10]_LessThan_5_o> created at line 51
+    Found 11-bit comparator greater for signal <State[10]_GND_1_o_LessThan_6_o> created at line 51
+    Found 11-bit comparator greater for signal <GND_1_o_State[10]_LessThan_13_o> created at line 69
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  60 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <Transmitter> synthesized.
+
+Synthesizing Unit <Scrambler>.
+    Related source file is "D:\HW\FPGA\Project\Phase 1\Verilog\Scrambler.v".
+    Found 7-bit register for signal <ShSeed>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <Scrambler> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 11-bit adder                                          : 1
+ 13-bit adder                                          : 3
+# Registers                                            : 6
+ 11-bit register                                       : 1
+ 12-bit register                                       : 3
+ 13-bit register                                       : 1
+ 7-bit register                                        : 1
+# Comparators                                          : 4
+ 11-bit comparator greater                             : 4
+# Multiplexers                                         : 3
+ 1-bit 2-to-1 multiplexer                              : 2
+ 12-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 16-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Transmitter>.
+The following registers are absorbed into counter <State>: 1 register on signal <State>.
+The following registers are absorbed into counter <datalength>: 1 register on signal <datalength>.
+Unit <Transmitter> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 13-bit adder                                          : 2
+# Counters                                             : 2
+ 11-bit up counter                                     : 1
+ 13-bit up counter                                     : 1
+# Registers                                            : 43
+ Flip-Flops                                            : 43
+# Comparators                                          : 4
+ 11-bit comparator greater                             : 4
+# Multiplexers                                         : 3
+ 1-bit 2-to-1 multiplexer                              : 2
+ 12-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 16-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Transmitter> ...
+
+Optimizing unit <Scrambler> ...
+INFO:Xst:2261 - The FF/Latch <State_0> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_0> 
+INFO:Xst:2261 - The FF/Latch <State_1> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_1> 
+INFO:Xst:2261 - The FF/Latch <State_2> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_2> 
+INFO:Xst:2261 - The FF/Latch <State_3> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_3> 
+INFO:Xst:2261 - The FF/Latch <State_4> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_4> 
+INFO:Xst:2261 - The FF/Latch <State_5> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_5> 
+INFO:Xst:2261 - The FF/Latch <State_6> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_6> 
+INFO:Xst:2261 - The FF/Latch <State_7> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_7> 
+INFO:Xst:2261 - The FF/Latch <State_8> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_8> 
+INFO:Xst:2261 - The FF/Latch <State_9> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_9> 
+INFO:Xst:2261 - The FF/Latch <State_10> in Unit <Transmitter> is equivalent to the following FF/Latch, which will be removed : <datalength_10> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Transmitter, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <Transmitter> :
+	Found 12-bit shift register for signal <Queue_11>.
+Unit <Transmitter> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 44
+ Flip-Flops                                            : 44
+# Shift Registers                                      : 1
+ 12-bit shift register                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Transmitter.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 205
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 22
+#      LUT2                        : 5
+#      LUT3                        : 17
+#      LUT4                        : 7
+#      LUT5                        : 7
+#      LUT6                        : 108
+#      MUXCY                       : 22
+#      VCC                         : 1
+#      XORCY                       : 13
+# FlipFlops/Latches                : 45
+#      FD                          : 25
+#      FDE                         : 1
+#      FDRE                        : 1
+#      FDS                         : 12
+#      FDSE                        : 6
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 6
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vcx75tff484-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              45  out of  93120     0%  
+ Number of Slice LUTs:                  169  out of  46560     0%  
+    Number used as Logic:               168  out of  46560     0%  
+    Number used as Memory:                1  out of  16720     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    174
+   Number with an unused Flip Flop:     129  out of    174    74%  
+   Number with an unused LUT:             5  out of    174     2%  
+   Number of fully used LUT-FF pairs:    40  out of    174    22%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    240     3%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 46    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 3.098ns (Maximum Frequency: 322.778MHz)
+   Minimum input arrival time before clock: 2.850ns
+   Maximum output required time after clock: 3.226ns
+   Maximum combinational path delay: 1.656ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 3.098ns (frequency: 322.778MHz)
+  Total number of paths / destination ports: 6390 / 59
+-------------------------------------------------------------------------
+Delay:               3.098ns (Levels of Logic = 5)
+  Source:            State_6 (FF)
+  Destination:       State_1 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: State_6 to State_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              11   0.317   0.568  State_6 (State_6)
+     LUT4:I1->O            1   0.061   0.696  out110_SW0_SW0 (N103)
+     LUT6:I0->O            1   0.061   0.357  out110_SW0 (N6)
+     LUT6:I5->O            3   0.061   0.369  out110 (out116)
+     LUT6:I5->O           25   0.061   0.486  out113 (GND_1_o_reduce_or_12_o)
+     LUT6:I5->O            1   0.061   0.000  Length_0_rstpot (Length_0_rstpot)
+     FD:D                     -0.002          Length_0
+    ----------------------------------------
+    Total                      3.098ns (0.622ns logic, 2.476ns route)
+                                       (20.1% logic, 79.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 1784 / 57
+-------------------------------------------------------------------------
+Offset:              2.850ns (Levels of Logic = 6)
+  Source:            num_pads<2> (PAD)
+  Destination:       State_1 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: num_pads<2> to State_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            13   0.003   0.634  num_pads_2_IBUF (num_pads_2_IBUF)
+     LUT4:I0->O            1   0.061   0.696  out110_SW0_SW0 (N103)
+     LUT6:I0->O            1   0.061   0.357  out110_SW0 (N6)
+     LUT6:I5->O            3   0.061   0.369  out110 (out116)
+     LUT6:I5->O           25   0.061   0.486  out113 (GND_1_o_reduce_or_12_o)
+     LUT6:I5->O            1   0.061   0.000  Length_0_rstpot (Length_0_rstpot)
+     FD:D                     -0.002          Length_0
+    ----------------------------------------
+    Total                      2.850ns (0.308ns logic, 2.542ns route)
+                                       (10.8% logic, 89.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 32 / 1
+-------------------------------------------------------------------------
+Offset:              3.226ns (Levels of Logic = 5)
+  Source:            Preamble_3 (FF)
+  Destination:       y (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: Preamble_3 to y
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              3   0.317   0.708  Preamble_3 (Preamble_3)
+     LUT6:I0->O            1   0.061   0.426  out2 (out)
+     LUT2:I0->O           62   0.061   0.831  out4 (_n0104)
+     LUT6:I0->O            1   0.061   0.357  Mmux_y11 (Mmux_y1)
+     LUT5:I4->O            1   0.061   0.339  Mmux_y12 (y_OBUF)
+     OBUF:I->O                 0.003          y_OBUF (y)
+    ----------------------------------------
+    Total                      3.226ns (0.564ns logic, 2.662ns route)
+                                       (17.5% logic, 82.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.656ns (Levels of Logic = 4)
+  Source:            Enable (PAD)
+  Destination:       y (PAD)
+
+  Data Path: Enable to y
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            76   0.003   0.832  Enable_IBUF (Enable_IBUF)
+     LUT6:I1->O            1   0.061   0.357  Mmux_y11 (Mmux_y1)
+     LUT5:I4->O            1   0.061   0.339  Mmux_y12 (y_OBUF)
+     OBUF:I->O                 0.003          y_OBUF (y)
+    ----------------------------------------
+    Total                      1.656ns (0.128ns logic, 1.528ns route)
+                                       (7.7% logic, 92.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    3.098|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.82 secs
+ 
+--> 
+
+Total memory usage is 4519036 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

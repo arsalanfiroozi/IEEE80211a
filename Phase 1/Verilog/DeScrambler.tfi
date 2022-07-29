@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+DeScrambler instance_name (
+    .Clk(Clk), 
+    .Reset(Reset), 
+    .x(x), 
+    .y(y), 
+    .Start(Start)
+    );
+
+

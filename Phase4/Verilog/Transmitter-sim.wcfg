@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/HW/FPGA/Project/Phase4/Verilog/Transmitter_2_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Transmitter_2_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/Transmitter_2_tb/y" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y</obj_property>
+      <obj_property name="ObjectShortName">y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/Valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Valid</obj_property>
+      <obj_property name="ObjectShortName">Valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/y1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y1</obj_property>
+      <obj_property name="ObjectShortName">y1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/reg_y_Interleaver" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_y_Interleaver[59:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_y_Interleaver[59:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/y0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y0</obj_property>
+      <obj_property name="ObjectShortName">y0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/Reset_Internal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset_Internal</obj_property>
+      <obj_property name="ObjectShortName">Reset_Internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/Sent_Service" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sent_Service</obj_property>
+      <obj_property name="ObjectShortName">Sent_Service</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/end_frame" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">end_frame[15:0]</obj_property>
+      <obj_property name="ObjectShortName">end_frame[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/Counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Counter[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/end_frame" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">end_frame[15:0]</obj_property>
+      <obj_property name="ObjectShortName">end_frame[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/Ncbps" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Ncbps[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Ncbps[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/uut/Length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Length[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Length[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/Start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x</obj_property>
+      <obj_property name="ObjectShortName">x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/InSignal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InSignal[263:0,0:0]</obj_property>
+      <obj_property name="ObjectShortName">InSignal[263:0,0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/OutSignal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OutSignal[275:0,0:0]</obj_property>
+      <obj_property name="ObjectShortName">OutSignal[275:0,0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/error1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">error1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/error2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">error2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Transmitter_2_tb/N" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+</wave_config>

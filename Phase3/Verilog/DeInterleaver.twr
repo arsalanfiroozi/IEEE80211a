@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml DeInterleaver.twx DeInterleaver.ncd -o DeInterleaver.twr
+DeInterleaver.pcf
+
+Design file:              DeInterleaver.ncd
+Physical constraint file: DeInterleaver.pcf
+Device,package,speed:     xc6vcx75t,ff484,C,-2 (PRODUCTION 1.11 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Rate<2>     |   21.780(R)|      SLOW  |    0.795(R)|      SLOW  |Clk_BUFGP         |   0.000|
+Rate<3>     |   21.754(R)|      SLOW  |    0.666(R)|      SLOW  |Clk_BUFGP         |   0.000|
+Reset       |    3.978(R)|      SLOW  |    1.050(R)|      SLOW  |Clk_BUFGP         |   0.000|
+Start       |    3.738(R)|      SLOW  |    1.243(R)|      SLOW  |Clk_BUFGP         |   0.000|
+x           |    3.250(R)|      SLOW  |    1.755(R)|      SLOW  |Clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock Clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Valid       |         7.160(R)|      SLOW  |         2.988(R)|      FAST  |Clk_BUFGP         |   0.000|
+y           |         6.960(R)|      SLOW  |         2.887(R)|      FAST  |Clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |   22.150|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Rate<2>        |Ncbps<4>       |    6.647|
+Rate<2>        |Ncbps<5>       |    5.525|
+Rate<2>        |Ncbps<6>       |    5.331|
+Rate<2>        |Ncbps<7>       |    6.689|
+Rate<2>        |Ncbps<8>       |    7.031|
+Rate<3>        |Ncbps<4>       |    6.619|
+Rate<3>        |Ncbps<5>       |    5.254|
+Rate<3>        |Ncbps<6>       |    5.061|
+Rate<3>        |Ncbps<7>       |    6.656|
+Rate<3>        |Ncbps<8>       |    7.325|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jul 08 23:15:28 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4814 MB
+
+
+

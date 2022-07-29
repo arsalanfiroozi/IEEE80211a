@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/HW/FPGA/Project/Phase 1/Verilog/DeScrambler_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="DeScrambler_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/DeScrambler_tb/y" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y</obj_property>
+      <obj_property name="ObjectShortName">y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x</obj_property>
+      <obj_property name="ObjectShortName">x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/InSignal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InSignal[275:0,0:0]</obj_property>
+      <obj_property name="ObjectShortName">InSignal[275:0,0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/OutSignal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OutSignal[263:0,0:0]</obj_property>
+      <obj_property name="ObjectShortName">OutSignal[263:0,0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/error1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">error1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/error2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">error2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/N" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/uut/datalength" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datalength[12:0]</obj_property>
+      <obj_property name="ObjectShortName">datalength[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/uut/Length" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Length[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Length[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/uut/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DeScrambler_tb/uut/State" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">State[10:0]</obj_property>
+      <obj_property name="ObjectShortName">State[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

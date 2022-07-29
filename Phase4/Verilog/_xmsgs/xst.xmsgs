@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n2602</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_63</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_62</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_61</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_60</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_59</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_58</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_57</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_56</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_55</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_54</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_53</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_52</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_51</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_50</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_49</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_48</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_47</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_46</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_45</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_44</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_43</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_42</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_41</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_40</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_39</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_38</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_37</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_36</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_35</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_34</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_33</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_32</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_31</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_30</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_29</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_28</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_27</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_26</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_25</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_24</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_23</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_22</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_21</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_20</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_19</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_18</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_17</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_16</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_15</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_14</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_13</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_12</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_11</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_10</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_9</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_8</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Paths_0</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_Ncbps</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_08</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_010</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_06</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_04</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_09</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_05</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_07</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_03</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_120</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_17</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_120</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_19</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_120</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_15</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_130</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_18</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_16</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_330</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_310</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_330</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_38</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_320</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_39</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_320</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_37</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_36</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_34</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_33</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_35</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_420</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_49</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_420</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_45</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_420</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_43</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_430</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_46</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_44</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_230</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_210</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_230</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_28</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_230</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_24</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_29</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_220</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_29</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_27</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_29</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_23</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_530</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_510</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_530</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_56</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_520</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_59</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_520</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_55</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_58</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_54</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_57</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_53</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_620</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_69</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_620</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_63</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_610</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_630</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_610</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_64</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_68</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_66</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_67</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_65</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_712</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_710</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_79</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_711</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_77</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_73</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_77</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_75</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_76</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_78</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_76</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_74</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_85</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_87</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_83</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_88</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_86</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_84</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_108</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_104</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1010</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_106</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_109</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_105</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_107</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_103</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_118</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_117</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_119</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_115</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_119</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_113</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_116</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_114</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_97</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_95</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_910</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_94</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_98</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_96</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_99</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_93</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_126</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_124</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_128</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_129</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_127</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_123</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_125</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_136</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_135</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_139</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_137</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_139</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_133</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_138</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1310</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_138</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_134</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_144</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_148</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_146</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_149</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_147</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_149</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_145</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1411</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_143</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_159</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_155</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_159</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_157</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_159</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_153</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_158</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1510</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_158</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_156</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_158</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_154</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_173</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1710</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_178</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1710</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_176</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1712</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_174</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_177</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_179</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_177</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_175</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_186</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1810</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_188</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1810</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_184</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_189</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_187</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_189</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_183</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_185</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1610</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_168</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1610</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_164</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1610</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_166</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_167</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_169</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_167</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_165</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_167</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_163</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_196</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_194</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_193</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_195</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_1910</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_198</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_199</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_197</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_207</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2010</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_206</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2010</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_204</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_208</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_209</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_205</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_209</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_203</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_218</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_214</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_216</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_219</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_215</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_217</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_213</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_228</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_226</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_225</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_227</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_229</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_223</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_224</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2411</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_249</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2412</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_248</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_244</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_248</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_246</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_247</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_245</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_247</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_243</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2510</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_254</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_259</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2511</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_259</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_253</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_257</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_255</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_256</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_258</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_235</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_237</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_233</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_238</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_236</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_234</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2612</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2610</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2612</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_266</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_269</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2611</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_269</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_265</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_267</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_263</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_268</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_264</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2712</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2710</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2712</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_276</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2712</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_274</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_279</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_275</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_273</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_287</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_289</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2810</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2812</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2810</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_288</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_285</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_283</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_284</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_286</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2910</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_298</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_2912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_294</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_299</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2911</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_299</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_297</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_299</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_293</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_318</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3110</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_316</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_314</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_319</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_315</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_317</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_313</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3210</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_328</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_324</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_326</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_329</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3211</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_329</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_327</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_329</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_325</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_329</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_323</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_308</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3010</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_306</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_309</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_305</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_307</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_337</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_339</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_335</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3310</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3312</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3310</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_338</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3310</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_336</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3410</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_348</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_344</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_349</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3411</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_349</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_347</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_349</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_343</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_358</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3510</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3511</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_359</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3511</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_357</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_356</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_354</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_355</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_353</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3612</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3610</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3612</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_364</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3612</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_366</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3611</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_369</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3611</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_365</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3611</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_363</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3810</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_384</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_389</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3811</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_383</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_388</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_386</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_385</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_387</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3910</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_399</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3911</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_397</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_393</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_397</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_395</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_396</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_398</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_396</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_394</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3712</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3710</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3712</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_376</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_379</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_3711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_375</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_378</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_374</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_377</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_373</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_407</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_405</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_403</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_408</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_404</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_406</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_416</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_418</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_414</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_419</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_413</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_417</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_415</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_427</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_423</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_426</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_428</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_424</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_429</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_425</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_438</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4310</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_436</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4310</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_434</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_439</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_435</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_439</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_433</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_437</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_456</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4511</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_455</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_459</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_457</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_459</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_453</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_458</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4510</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_458</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_454</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4611</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_463</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4610</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_468</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4610</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_466</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4612</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_464</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_467</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_469</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_467</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_465</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_446</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_444</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_448</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_449</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_447</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4411</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_443</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4411</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_445</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_479</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_475</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_479</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_477</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_479</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_473</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_478</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4710</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_478</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_476</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_478</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_474</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4810</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_488</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4810</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_484</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4810</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_486</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_489</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_487</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_489</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_485</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_489</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_483</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4912</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_494</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_4911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_493</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_499</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_495</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_499</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_497</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_498</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4910</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_498</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_496</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_505</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5010</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_508</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5010</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_504</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_506</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_507</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_509</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_507</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_503</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5212</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_528</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_526</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_524</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_529</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_523</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_529</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_525</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_527</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_538</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_534</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_537</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5311</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_533</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_539</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_535</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5310</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_536</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_514</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_516</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_515</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_513</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5110</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_518</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_517</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_519</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_548</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5412</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_546</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5411</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_547</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5411</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_545</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_549</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_543</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5410</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_544</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5511</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_557</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5511</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_555</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5511</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_553</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_558</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_554</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5512</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_556</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5612</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5610</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_569</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5611</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_567</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_563</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_567</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_565</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_566</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_568</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_566</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_564</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_579</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5711</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_573</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5710</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5712</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5710</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_574</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_578</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_576</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_577</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_575</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5810</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5812</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_586</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_589</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5811</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_589</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_585</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_587</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_583</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_588</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_584</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_599</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_595</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5911</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_593</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5910</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5912</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5910</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_596</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_5910</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_594</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6010</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_608</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_609</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6011</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_609</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_607</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_606</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_604</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_605</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_603</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_618</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6110</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6112</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_614</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_619</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_617</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6111</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_613</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_627</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_629</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6211</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_625</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6212</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_628</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6210</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_626</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6310</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_636</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_638</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_6312</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_634</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_639</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6311</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_639</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_637</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_639</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_633</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_639</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_635</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Transmitter/Counter_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Transmitter/Enc_Ins/in_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Receiver/DeS_Ins/Counter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Receiver/DeS_Ins/f&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_110</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_330</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_410</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_230</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_530</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_610</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_712</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_812</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1012</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1112</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_912</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1212</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1312</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1412</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1512</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1710</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1810</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1610</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1910</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2010</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2110</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2210</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_248</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_256</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2310</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_268</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_278</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_284</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_296</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3212</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_304</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3310</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3412</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3512</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3612</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3812</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3912</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3712</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4012</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4112</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4212</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4312</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4512</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4612</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4412</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4712</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4810</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_498</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5010</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5210</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5310</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5110</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5410</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5510</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_566</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_578</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_588</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_598</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_606</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_616</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_012</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_624</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_120</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_320</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_420</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_29</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_520</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_620</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_79</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_811</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1011</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1111</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_911</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1211</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1311</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1411</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1511</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_177</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_189</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_167</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_199</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_209</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_219</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_229</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_247</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_257</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_239</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_267</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_277</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_285</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_295</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_329</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_303</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3311</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_349</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3511</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3611</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3811</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_399</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3711</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4011</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4111</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4211</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4311</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4511</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4611</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4411</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4711</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_489</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_499</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_507</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_529</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_539</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_517</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_549</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_559</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_567</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_577</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_587</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_597</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_605</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_615</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_011</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_623</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_36</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_48</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_26</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_58</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_68</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_76</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_810</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1010</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1110</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_910</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1210</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_138</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1410</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_158</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1712</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1812</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1612</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1912</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2012</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2112</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2212</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2410</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2512</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2312</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2612</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2712</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2810</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2912</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3112</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3012</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_334</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_346</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_356</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_368</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_388</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_396</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_378</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4010</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4110</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4210</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4310</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_458</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4610</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4410</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_478</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4812</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4912</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5012</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5212</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5312</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5112</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5412</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5512</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5612</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5710</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5812</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5910</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6012</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6112</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6210</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_14</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6312</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_33</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_47</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_25</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_57</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_67</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_77</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_89</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_109</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_119</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_99</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_129</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_139</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_149</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_159</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1711</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1811</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1611</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_1911</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2011</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2111</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2211</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2411</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_259</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2311</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_269</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2711</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_2811</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_299</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3111</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_3011</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_333</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_345</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_355</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_367</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_385</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_397</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_377</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_409</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_419</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_429</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_439</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_459</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_467</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_449</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_479</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4811</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_4911</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5011</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5211</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5311</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5111</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5411</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5511</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_569</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5711</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_589</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_5911</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_609</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6111</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_6211</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">Receiver/Dec_Ins/Mram_Paths_13</arg>&gt;, &lt;<arg fmt="%s" index="2">Receiver/Dec_Ins/Mram_Paths_639</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">59</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">Transmitter/reg_y_Interleaver_59</arg>&gt; and currently occupies <arg fmt="%d" index="3">59</arg> logic cells (<arg fmt="%d" index="4">29</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>

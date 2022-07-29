@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase4/Verilog/Transmitter_2.xst" -ofn "D:/HW/FPGA/Project/Phase4/Verilog/Transmitter_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vcx75t-ff484-2 Transmitter_2.ngc Transmitter_2.ngd  
+map -intstyle ise -p xc6vcx75t-ff484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Transmitter_2_map.ncd Transmitter_2.ngd Transmitter_2.pcf 
+par -w -intstyle ise -ol high -mt off Transmitter_2_map.ncd Transmitter_2.ncd Transmitter_2.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Transmitter_2.twx Transmitter_2.ncd -o Transmitter_2.twr Transmitter_2.pcf 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase4/Verilog/Transmitter_2.xst" -ofn "D:/HW/FPGA/Project/Phase4/Verilog/Transmitter_2.syr" 

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Verilog -o D:/HW/FPGA/Project/Phase4/Verilog/DeInterleaver.tfi -lib work D:/HW/FPGA/Project/Phase4/Verilog//DeInterleaver.v -module DeInterleaver -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

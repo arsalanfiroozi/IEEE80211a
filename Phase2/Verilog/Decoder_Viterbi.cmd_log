@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase2/Verilog/Decoder_Viterbi.xst" -ofn "D:/HW/FPGA/Project/Phase2/Verilog/Decoder_Viterbi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vcx75t-ff484-2 Decoder_Viterbi.ngc Decoder_Viterbi.ngd  
+map -intstyle ise -p xc6vcx75t-ff484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Decoder_Viterbi_map.ncd Decoder_Viterbi.ngd Decoder_Viterbi.pcf 
+par -w -intstyle ise -ol high -mt off Decoder_Viterbi_map.ncd Decoder_Viterbi.ncd Decoder_Viterbi.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Decoder_Viterbi.twx Decoder_Viterbi.ncd -o Decoder_Viterbi.twr Decoder_Viterbi.pcf 

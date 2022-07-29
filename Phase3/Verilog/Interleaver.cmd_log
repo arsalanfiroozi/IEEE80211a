@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase3/Verilog/Interleaver.xst" -ofn "D:/HW/FPGA/Project/Phase3/Verilog/Interleaver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vcx75t-ff484-2 Interleaver.ngc Interleaver.ngd  
+map -intstyle ise -p xc6vcx75t-ff484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Interleaver_map.ncd Interleaver.ngd Interleaver.pcf 
+par -w -intstyle ise -ol high -mt off Interleaver_map.ncd Interleaver.ncd Interleaver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Interleaver.twx Interleaver.ncd -o Interleaver.twr Interleaver.pcf 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase3/Verilog/Interleaver.xst" -ofn "D:/HW/FPGA/Project/Phase3/Verilog/Interleaver.syr" 

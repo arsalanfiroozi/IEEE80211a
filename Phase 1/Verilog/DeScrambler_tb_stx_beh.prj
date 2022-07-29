@@ -1,0 +1,4 @@
+verilog isim_temp "DeScrambler.v"
+verilog isim_temp "Receiver.v"
+verilog isim_temp "DeScrambler_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

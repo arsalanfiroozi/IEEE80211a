@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+Receiver_2 instance_name (
+    .Clk(Clk), 
+    .Reset(Reset), 
+    .x(x), 
+    .y(y), 
+    .Valid(Valid), 
+    .num_pads(num_pads)
+    );
+
+

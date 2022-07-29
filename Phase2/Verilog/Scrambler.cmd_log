@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.xst" -ofn "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.syr" 
+vhdtdtfi -lang verilog -prj Phase1 -o "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.tfi" -lib work "D:/HW/FPGA/Project/Phase 1/Verilog//Scrambler.v" -module Scrambler -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Phase1 -o "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.tfi" -lib work "D:/HW/FPGA/Project/Phase 1/Verilog//Scrambler.v" -module Scrambler -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Phase1 -o "D:/HW/FPGA/Project/Phase 1/Verilog/Scrambler.tfi" -lib work "D:/HW/FPGA/Project/Phase 1/Verilog//Scrambler.v" -module Scrambler -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

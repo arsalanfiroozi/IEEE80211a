@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase4/Verilog/Receiver_2.xst" -ofn "D:/HW/FPGA/Project/Phase4/Verilog/Receiver_2.syr" 
+vhdtdtfi -lang verilog -prj Verilog -o D:/HW/FPGA/Project/Phase4/Verilog/Receiver_2.tfi -lib work D:/HW/FPGA/Project/Phase4/Verilog//Receiver_2.v -module Receiver_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vcx75t-ff484-2 Receiver_2.ngc Receiver_2.ngd  
+map -intstyle ise -p xc6vcx75t-ff484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Receiver_2_map.ncd Receiver_2.ngd Receiver_2.pcf 
+par -w -intstyle ise -ol high -mt off Receiver_2_map.ncd Receiver_2.ncd Receiver_2.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Receiver_2.twx Receiver_2.ncd -o Receiver_2.twr Receiver_2.pcf 
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase4/Verilog/Receiver_2.xst" -ofn "D:/HW/FPGA/Project/Phase4/Verilog/Receiver_2.syr" 

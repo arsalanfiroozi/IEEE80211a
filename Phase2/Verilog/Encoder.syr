@@ -1,0 +1,402 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: Encoder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Encoder.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Encoder"
+Output Format                      : NGC
+Target Device                      : xc6vcx75t-2-ff484
+
+---- Source Options
+Top Module Name                    : Encoder
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\HW\FPGA\Project\Phase2\Verilog\Encoder.v" into library work
+Parsing module <Encoder>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Encoder>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Encoder>.
+    Related source file is "D:\HW\FPGA\Project\Phase2\Verilog\Encoder.v".
+    Found 1024-bit register for signal <OutReg>.
+    Found 10-bit register for signal <in>.
+    Found 6-bit register for signal <state>.
+    Found 10-bit adder for signal <next_in> created at line 21.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred 1040 D-type flip-flop(s).
+	inferred 2048 Multiplexer(s).
+Unit <Encoder> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 10-bit adder                                          : 1
+# Registers                                            : 3
+ 10-bit register                                       : 1
+ 1024-bit register                                     : 1
+ 6-bit register                                        : 1
+# Multiplexers                                         : 2048
+ 1-bit 2-to-1 multiplexer                              : 2048
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Encoder>.
+The following registers are absorbed into counter <in>: 1 register on signal <in>.
+Unit <Encoder> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 10-bit adder                                          : 1
+# Counters                                             : 1
+ 10-bit up counter                                     : 1
+# Registers                                            : 1030
+ Flip-Flops                                            : 1030
+# Multiplexers                                         : 2048
+ 1-bit 2-to-1 multiplexer                              : 2048
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Encoder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Encoder, actual ratio is 5.
+FlipFlop in_0 has been replicated 1 time(s)
+FlipFlop in_1 has been replicated 1 time(s)
+FlipFlop in_2 has been replicated 1 time(s)
+FlipFlop in_3 has been replicated 2 time(s)
+FlipFlop in_4 has been replicated 3 time(s)
+FlipFlop in_5 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1049
+ Flip-Flops                                            : 1049
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Encoder.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2332
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 9
+#      LUT2                        : 3
+#      LUT3                        : 42
+#      LUT4                        : 9
+#      LUT5                        : 351
+#      LUT6                        : 1896
+#      MUXCY                       : 9
+#      VCC                         : 1
+#      XORCY                       : 10
+# FlipFlops/Latches                : 1049
+#      FDR                         : 1049
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 3
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vcx75tff484-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1049  out of  93120     1%  
+ Number of Slice LUTs:                 2311  out of  46560     4%  
+    Number used as Logic:              2311  out of  46560     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2326
+   Number with an unused Flip Flop:    1277  out of   2326    54%  
+   Number with an unused LUT:            15  out of   2326     0%  
+   Number of fully used LUT-FF pairs:  1034  out of   2326    44%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    240     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 1049  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 2.620ns (Maximum Frequency: 381.650MHz)
+   Minimum input arrival time before clock: 2.207ns
+   Maximum output required time after clock: 0.659ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 2.620ns (frequency: 381.650MHz)
+  Total number of paths / destination ports: 62013 / 1048
+-------------------------------------------------------------------------
+Delay:               2.620ns (Levels of Logic = 4)
+  Source:            in_3_1 (FF)
+  Destination:       OutReg_709 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: in_3_1 to OutReg_709
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.317   0.701  in_3_1 (in_3_1)
+     LUT6:I0->O            5   0.061   0.380  Madd_next_in_cy<5>11_1 (Madd_next_in_cy<5>11)
+     LUT4:I3->O          230   0.061   0.593  Madd_next_in_xor<8>11 (next_in<8>)
+     LUT5:I3->O            6   0.061   0.385  next_in[9]_Decoder_3_OUT<1005><9>21 (next_in[9]_Decoder_3_OUT<1005><9>2)
+     LUT6:I5->O            1   0.061   0.000  Mmux_OutReg[1000]_Odd_MUX_1049_o1 (OutReg[1000]_Odd_MUX_1049_o)
+     FDR:D                    -0.002          OutReg_999
+    ----------------------------------------
+    Total                      2.620ns (0.561ns logic, 2.059ns route)
+                                       (21.4% logic, 78.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 4148 / 2074
+-------------------------------------------------------------------------
+Offset:              2.207ns (Levels of Logic = 4)
+  Source:            x (PAD)
+  Destination:       OutReg_1 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: x to OutReg_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.003   0.706  x_IBUF (x_IBUF)
+     LUT5:I0->O         1025   0.061   0.748  Mxor_Even_xo<0>1 (Even)
+     LUT6:I3->O            1   0.061   0.566  next_in[9]_Decoder_3_OUT<115><9>11_SW5 (N2105)
+     LUT6:I2->O            1   0.061   0.000  Mmux_OutReg[324]_Odd_MUX_1725_o1 (OutReg[324]_Odd_MUX_1725_o)
+     FDR:D                    -0.002          OutReg_323
+    ----------------------------------------
+    Total                      2.207ns (0.186ns logic, 2.021ns route)
+                                       (8.4% logic, 91.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.659ns (Levels of Logic = 1)
+  Source:            OutReg_0 (FF)
+  Destination:       Out (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: OutReg_0 to Out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.317   0.339  OutReg_0 (OutReg_0)
+     OBUF:I->O                 0.003          Out_OBUF (Out)
+    ----------------------------------------
+    Total                      0.659ns (0.320ns logic, 0.339ns route)
+                                       (48.5% logic, 51.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    2.620|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 44.00 secs
+Total CPU time to Xst completion: 43.91 secs
+ 
+--> 
+
+Total memory usage is 4602236 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

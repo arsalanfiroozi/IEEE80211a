@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/HW/FPGA/Project/Phase4/Verilog/Main.xst" -ofn "D:/HW/FPGA/Project/Phase4/Verilog/Main.syr" 

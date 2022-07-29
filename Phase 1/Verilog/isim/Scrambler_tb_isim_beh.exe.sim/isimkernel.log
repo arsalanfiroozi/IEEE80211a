@@ -1,0 +1,28 @@
+Command line:
+   Scrambler_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49930
+
+Sat Jun 12 19:02:52 2021
+
+
+ Elaboration Time: 0.59375 sec
+
+ Current Memory Usage: 5162.71 Meg
+
+ Total Signals          : 29
+ Total Nets             : 46
+ Total Signal Drivers   : 17
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 37
+ Total Scalar Nets and Variables : 879
+
+ Total Simulation Time: 0.59375 sec
+
+ Current Memory Usage: 5320 Meg
+
+Sat Jun 12 19:05:55 2021
+
